@@ -1,0 +1,7 @@
+venv/
+data/
+PlantVillage-Dataset/
+__pycache__/
+*.pyc
+data_explore.py
+
