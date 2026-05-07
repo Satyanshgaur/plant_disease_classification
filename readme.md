@@ -24,3 +24,28 @@ A dashboard or alerting system for detected diseases
 Conceptually:
 Camera Feed → Disease Detection Model → Prediction/Localization → Farmer Alert or Autonomous Action
 
+Features:
+
+Machine Learning
+
+Leaf disease image classification
+Transfer learning with CNN architectures
+Real-time inference optimization
+Multi-class disease detection
+Confidence scoring and prediction visualization
+
+Robotics
+
+Wheeled autonomous rover
+Camera stabilization/mount system
+Obstacle avoidance
+Field navigation logic
+Edge deployment on embedded hardware
+
+Data & Infrastructure
+
+Dataset collection and preprocessing pipeline
+Model training/evaluation framework
+Experiment tracking
+Model versioning
+Inference benchmarking
