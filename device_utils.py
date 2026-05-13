@@ -1,5 +1,6 @@
 import torch
 
+# Checking the device we are working with
 def get_default_device():
     """Pick GPU if available, else CPU"""
     if torch.cuda.is_available():
@@ -13,6 +14,7 @@ def to_device(data, device):
         return [to_device(x, device) for x in data]
     return data.to(device, non_blocking=True)
 
+# Wrap up our training and validation data loaders using DeviceDataLoader for automatically transferring batches of data to the GPU (if available)
 class DeviceDataLoader():
     """Wrap a dataloader to move data to a device"""
     def __init__(self, dl, device):
